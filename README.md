@@ -15,6 +15,10 @@ django-admin startproject 프로젝트 이름
 python3 manage.py startapp 앱이름
 ~~~
 * settings.py, models.py,admin.py 수정 + forms.py, serializers.py, urls.py 생성
-
-
+* 마이그래이션/마이그래이트 + 슈퍼 유저 생성
+~~~
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+~~~
 
