@@ -1,0 +1,154 @@
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.show-products-nav{
+  
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.add-product-nav{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.myposts-nav{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.products-card-info{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+@media(max-width: 800px){
+  .products-card-info{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
+.my-products{
+  width: max-content;
+  height: max-content;
+}
+.single-product-info{
+  font-style : italic;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  text-decoration: black;
+  margin: 15px;
+  padding: 5px;
+
+}
+.products-price-info{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  color: green;
+  margin-top: 2px;
+
+}
+.detail-modal{
+  text-align: center;
+}
+.detail-image{
+  margin-bottom: 15px;
+}
+
+.upload-image-previw{
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.logout-footer{
+  display: flex;
+  height: 60px;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.logout-body{
+  text-align: center;
+  font-size: 20px;
+}
+
+.logout-btn{
+  margin-right: 10px;
+  width: fit-content;
+  
+}
+
+.home-btn{
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.nav-design{
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-end;
+
+}
+
+.login{
+  text-align: center;
+}
+
+.email-box{
+  margin-bottom: 10px;
+}
+
+.password-box{
+  margin-bottom: 10px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.sign-up{
+  text-align: center;
+}
+
+.sign-box{
+  margin-bottom: 10px;
+}
+
+.add-label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.update-label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.welcome-user{
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 15px;
+}
